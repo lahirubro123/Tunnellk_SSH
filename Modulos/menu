@@ -62,7 +62,7 @@ fun_tst () {
 speedtest --share > speed
 }
 echo ""
-echo -e "   \033[1;32mසේවාදායකයාගේ වේගය පරීක්ෂා කිරීම!\033[0m"
+echo -e "   \033[1;32mChecking Your VPS Speed !\033[0m"
 echo ""
 aguarde 'fun_tst'
 echo ""
@@ -178,12 +178,12 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[44;1;37m               ♻️ DARKSSH MANAGER ♻️              \E[0m"
-echo -e "\033[0;34m  #BY:      🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥         \E[0m"
+echo -e "\E[44;1;37m          ♻️ Tunnellk_SSH MANAGER ♻️               \E[0m"
+echo -e "\033[0;34m  #BY:      ⚡️⚡️ Tunnellk_SSH  ⚡️⚡️         \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[1;32mSISTEMA            RAM MEMORY       PROCESSOR "
-echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mNuclei: \033[1;37m$_core\033[0m"
-echo -e "\033[1;31mHora: \033[1;37m$_hora     \033[1;31mIn use: \033[1;37m$_usor \033[1;31mIn use: \033[1;37m$_usop\033[0m"
+echo -e "\033[1;32mSYSTEM            RAM MEMORY       PROCESSOR "
+echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mCore: \033[1;37m$_core\033[0m"
+echo -e "\033[1;31mTime: \033[1;37m$_hora     \033[1;31mIn use: \033[1;37m$_usor \033[1;31mIn use: \033[1;37m$_usop\033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 [[ ! -e /tmp/att ]]  && {
     echo -e "\033[1;32mOnline:\033[1;37m $_onlin     \033[1;31mExpired: \033[1;37m$_userexp \033[1;33mTotal: \033[1;37m$_tuser\033[0m"
@@ -193,7 +193,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
     var01="\033[1;32m!"
 }
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[0;34m  #BY:      🔥⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡️🔥       \033[0m"
+echo -e "\033[0;34m  #BY:      ⚡️⚡️ Tunnellk_SSH  ⚡️⚡️      \033[0m"
 echo ""
 echo -e "\033[1;31m[\033[1;36m20\033[1;31m] \033[1;37m• \033[1;33mADD HOST \033[1;31m             [\033[1;36m26\033[1;31m] \033[1;37m• \033[1;33mCHANGE ROOT PASSWORD \033[1;31m
 [\033[1;36m21\033[1;31m] \033[1;37m• \033[1;33mREMOVER HOST \033[1;31m         [\033[1;36m27\033[1;31m] \033[1;37m• \033[1;33mAUTO EXECUTION $autm \033[1;31m
@@ -299,9 +299,9 @@ echo -e "\033[0;34m  #BY:         ⚡️⚡️ Tunnellk_SSH  ⚡️⚡️       
 echo -e "\033[0;34m                    Moded by lahiru                   \033[0m"
 echo -e "\033[0;34m                   Telegram- @NoobLK               \033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[1;32mSISTEMA            RAM MEMORY        PROCESSOR "
-echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mNuclei: \033[1;37m$_core\033[0m"
-echo -e "\033[1;31mHora: \033[1;37m$_hora     \033[1;31mIn use: \033[1;37m$_usor \033[1;31mIn use: \033[1;37m$_usop\033[0m"
+echo -e "\033[1;32mSYSTEM            RAM MEMORY        PROCESSOR "
+echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mCore: \033[1;37m$_core\033[0m"
+echo -e "\033[1;31mTime: \033[1;37m$_hora     \033[1;31mIn use: \033[1;37m$_usor \033[1;31mIn use: \033[1;37m$_usop\033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;32mOnline:\033[1;37m $_onlin     \033[1;31mExpired: \033[1;37m$_userexp \033[1;33mTotal: \033[1;37m$_tuser\033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
