@@ -133,5 +133,5 @@ cd $HOME
 echo -e "        \033[1;33m • \033[1;32mINSTALLATION IS COMPLETED\033[1;33m • \033[0m"
 echo ""
 echo -e "\033[1;31m \033[1;33mTo accsess Panel Type  : \033[1;32mmenu\033[0m"
-rm $HOME/tunnellk && cat /dev/null > ~/.bash_history && history -c
+rm $HOME/home/tunnellk && cat /dev/null > ~/.bash_history && history -c
 
